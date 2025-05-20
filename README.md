@@ -14,7 +14,7 @@ A sleek, responsive portfolio website built with **Astro**, **React**, and **Tai
 
 ## 🚀 Demo
 
-👉 [Live Demo](https://adx.vercel.app/)
+👉 [Live Demo](https://adx.net.in/myportfolio/)
 
 ## 🛠 Getting Started
 
