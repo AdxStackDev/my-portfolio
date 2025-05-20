@@ -88,10 +88,6 @@ export const education = [
     location: "Location",
     degree: "Your Degree",
     period: "Start Date - End Date",
-    achievements: [
-      "Achievement 1",
-      "Achievement 2",
-    ],
   },
 ];
 ```
@@ -112,25 +108,7 @@ export const skills = {
 export const projects = [
   {
     title: "Project Name",
-    github: "https://github.com/yourusername/project",
-    description: [
-      "What it does",
-      "Technologies used",
-    ],
-  },
-];
-```
-
-### 6. Awards
-
-```ts
-export const awards = [
-  {
-    name: "Award Name",
-    issuer: "Issuer",
-    date: "Date",
-    type: "Type",
-    position: "Position",
+    // and more...
   },
 ];
 ```
