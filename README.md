@@ -12,10 +12,6 @@ A sleek, responsive portfolio website built with **Astro**, **React**, and **Tai
 - **Modular Structure** – Built for easy customization and scalability
 - **SEO Friendly** – Structured content and meta tags for better visibility
 
-## 🚀 Demo
-
-👉 [Live Demo](https://adx.net.in/myportfolio/)
-
 ## 🛠 Getting Started
 
 ### Prerequisites
@@ -141,15 +137,10 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## ©️ Copyright
 
-© 2025 **Aditya D.** All rights reserved.
+© 2026 **Aditya D.** All rights reserved.
 
-You’re welcome to use this template for your own portfolio — just update `data.ts` and tweak the design as needed. Please keep attribution to the original author.
-
+You’re welcome to use this template for your own portfolio — just update `data.ts` and tweak the design as needed.
 ---
-
-## 🌟 Like it?
-
-If you found this helpful or inspiring, **please consider leaving a star** ⭐ on the repo — it helps others discover it too!
 
 ---
 
