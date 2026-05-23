@@ -9,12 +9,12 @@
   ],
   "compilerOptions": {
     "baseUrl": ".",
+    "ignoreDeprecations": "6.0",
     "paths": {
       "@/*": [
         "./src/*"
       ]
     },
-    "jsx": "react-jsx",
-    "jsxImportSource": "react"
+    "strictNullChecks": true
   }
 }
