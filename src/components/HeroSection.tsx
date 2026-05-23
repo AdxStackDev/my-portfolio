@@ -1,5 +1,5 @@
 import { personalInfo } from "@/lib/data";
-import { Mail, Github, MapPin, Linkedin } from "lucide-react";
+import { Mail, Github, MapPin, Linkedin, Phone } from "lucide-react";
 import { motion } from "framer-motion";
 import MotionWrapper from "./MotionWrapper";
 
@@ -9,8 +9,8 @@ export default function HeroSection() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.2,
-        delayChildren: 0.3,
+        staggerChildren: 0.15,
+        delayChildren: 0.2,
       },
     },
   };
@@ -20,9 +20,7 @@ export default function HeroSection() {
     visible: {
       opacity: 1,
       y: 0,
-      transition: {
-        duration: 0.5,
-      },
+      transition: { duration: 0.5 },
     },
   };
 
@@ -35,9 +33,10 @@ export default function HeroSection() {
           initial="hidden"
           animate="visible"
         >
+          {/* Left — Text */}
           <div className="text-center md:text-left">
             <motion.h1
-              className="text-4xl font-bold mb-2"
+              className="text-4xl font-bold mb-1"
               variants={childVariants}
             >
               {personalInfo.name}{" "}
@@ -45,12 +44,20 @@ export default function HeroSection() {
             </motion.h1>
 
             <motion.p
-              className="text-xl text-muted-foreground mb-6"
+              className="text-xl font-semibold text-purple-500 dark:text-purple-400 mb-1"
               variants={childVariants}
             >
-              PHP Developer 👨‍💻
+              {personalInfo.title}
             </motion.p>
 
+            <motion.p
+              className="text-sm text-muted-foreground mb-5"
+              variants={childVariants}
+            >
+              {personalInfo.subtitle}
+            </motion.p>
+
+            {/* Contact Links */}
             <motion.div
               className="flex flex-col gap-2 items-center md:items-start"
               variants={containerVariants}
@@ -58,20 +65,30 @@ export default function HeroSection() {
               <motion.div
                 className="flex items-center text-sm text-muted-foreground"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
-                <MapPin className="h-4 w-4 mr-2" />
-                📍 {personalInfo.location}
+                <MapPin className="h-4 w-4 mr-2 text-purple-500/70" />
+                {personalInfo.location}
               </motion.div>
 
               <motion.a
                 href={`mailto:${personalInfo.email}`}
                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
-                <Mail className="h-4 w-4 mr-2" />
-                ✉️ {personalInfo.email}
+                <Mail className="h-4 w-4 mr-2 text-purple-500/70" />
+                {personalInfo.email}
+              </motion.a>
+
+              <motion.a
+                href={`tel:${personalInfo.phone}`}
+                className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
+                variants={childVariants}
+                whileHover={{ scale: 1.05 }}
+              >
+                <Phone className="h-4 w-4 mr-2 text-purple-500/70" />
+                {personalInfo.phone}
               </motion.a>
 
               <motion.a
@@ -80,10 +97,10 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
-                <Github className="h-4 w-4 mr-2" />
-                🌟 GitHub
+                <Github className="h-4 w-4 mr-2 text-purple-500/70" />
+                GitHub
               </motion.a>
 
               <motion.a
@@ -92,45 +109,38 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="flex items-center text-sm text-muted-foreground hover:text-foreground transition-colors"
                 variants={childVariants}
-                whileHover={{ scale: 1.05, color: "#4b5563" }}
+                whileHover={{ scale: 1.05 }}
               >
-                <Linkedin className="h-4 w-4 mr-2" />
-                🔗 LinkedIn
+                <Linkedin className="h-4 w-4 mr-2 text-purple-500/70" />
+                LinkedIn
               </motion.a>
             </motion.div>
           </div>
 
+          {/* Right — Profile Photo */}
           <motion.div
-            className="mt-6 md:mt-0 flex justify-center"
+            className="mt-8 md:mt-0 flex justify-center"
             variants={childVariants}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <div className="relative">
-              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
+              <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 transition duration-1000" />
               <img
                 src="/profile.jpg"
-                alt="Profile"
-                className="w-48 md:w-60 rounded-full relative ring-2 ring-purple-500/50"
-                style={{ objectFit: "cover" }}
+                alt={personalInfo.name}
+                className="w-48 h-48 md:w-60 md:h-60 rounded-full relative ring-2 ring-purple-500/50 object-cover"
               />
             </div>
           </motion.div>
         </motion.div>
 
+        {/* Summary */}
         <MotionWrapper>
           <div className="bg-gradient-to-r from-purple-500/10 to-pink-500/10 backdrop-blur-sm backdrop-filter p-4 rounded-lg border border-purple-500/20 dark:border-purple-500/10 shadow-sm">
-            <p className="text-muted-foreground pl-4 py-2 mb-4 relative">
-              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full"></span>
-              🚀 Passionate PHP Developer with a versatile skill set
-              spanning multiple domains. I thrive on solving complex challenges
-              across different platforms and environments, adapting quickly to
-              new technologies and methodologies. My holistic approach combines
-              technical expertise with creative problem-solving, allowing me to
-              develop solutions that are both innovative and practical. I'm
-              driven by continuous learning and a commitment to excellence,
-              whether working independently or collaborating with diverse teams
-              to create impactful, scalable solutions.
+            <p className="text-muted-foreground pl-4 py-2 mb-0 relative text-sm leading-relaxed">
+              <span className="absolute left-0 top-0 h-full w-1 bg-gradient-to-b from-purple-500 to-pink-500 rounded-full" />
+              🚀 {personalInfo.summary}
             </p>
           </div>
         </MotionWrapper>

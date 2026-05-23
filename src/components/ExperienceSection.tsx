@@ -58,6 +58,7 @@ export default function ExperienceSection() {
                       transition={{ duration: 0.3, delay: 0.1 * i }}
                       viewport={{ once: true }}
                     >
+                      <span className="absolute left-0 top-1.5 h-1.5 w-1.5 rounded-full bg-purple-500/70 shrink-0" />
                       {achievement}
                     </motion.li>
                   ))}
