@@ -20,18 +20,18 @@ export const workExperience = [
     achievements: [
       "Architected a Laravel-based KYC/AML/Prefill integration suite (IDMERIT) handling identity verification, Aadhaar validation, and AML screening with Passport token auth and rate-limited API gateways.",
       "Designed MySQL and MongoDB database schemas with Redis caching layers and Elasticsearch full-text indexing, reducing average query response time by ~60%.",
-      "Built the IDMERIT KYX React.js dashboard — a multi-tenant identity verification portal featuring RBAC, multi-tier subscription management, and real-time verification status tracking.",
+      "Built the IDMERIT KYX React.js dashboard - a multi-tenant identity verification portal featuring RBAC, multi-tier subscription management, and real-time verification status tracking.",
       "Integrated front-end React components seamlessly with Laravel back-end via RESTful APIs; implemented reusable component libraries and standardised API response patterns.",
       "Led cross-functional code reviews and collaborated with QA teams to deliver secure, scalable, production-ready features on aggressive timelines.",
     ],
   },
   {
     company: "JoomDev",
-    location: "Ahmedabad, India",
+    location: "Delhi(WFH), India",
     position: "Full Stack / PHP Developer",
     period: "Feb 2023 – Feb 2025",
     achievements: [
-      "Engineered RESTful API integrations for four fintech platforms — Fundkite, Juice Financial, Sensible, and MoneyThumb — enabling automated loan origination, document analysis, and financial data exchange workflows.",
+      "Engineered RESTful API integrations for four fintech platforms - Fundkite, Juice Financial, Sensible, and MoneyThumb - enabling automated loan origination, document analysis, and financial data exchange workflows.",
       "Integrated Thomson Reuters Clear for compliance screening and KYC verification within the lead management pipeline.",
       "Built HealthWell, a full-stack reimbursement portal (React + Laravel) with multi-level admin hierarchy, automated claim processing engine, OTP-based patient authentication, and real-time claim status dashboards.",
       "Automated 12+ business workflows using Pipedream; integrated Shopify, Square, QuickBooks, Rutter, HubSpot CRM, and Vtiger CRM.",
@@ -41,11 +41,11 @@ export const workExperience = [
   },
   {
     company: "WebMintra Technologies Pvt. Ltd.",
-    location: "Ahmedabad, India",
+    location: "Noida, India",
     position: "Full Stack / PHP Developer",
     period: "April 2021 – Jan 2023",
     achievements: [
-      "Developed the Overseas Education Lane portal — a Laravel-based multi-role platform for international education agencies managing partner universities, course catalogues, student applications, and agent workflows.",
+      "Developed the Overseas Education Lane portal - a Laravel-based multi-role platform for international education agencies managing partner universities, course catalogues, student applications, and agent workflows.",
       "Implemented OAuth2 SSO flows and session management for seamless cross-role authentication (agents, universities, administrators, students).",
       "Built custom CodeIgniter modules for education portals serving clients across the UK, Canada, and Australia, including application tracking, document upload, and offer letter management.",
       "Conducted database normalisation and query optimisation (indexing strategies, query caching), improving portal load times significantly.",
@@ -53,7 +53,7 @@ export const workExperience = [
   },
   {
     company: "Capgemini India (HCSC Process)",
-    location: "Ahmedabad, India",
+    location: "Noida NSEZ, India",
     position: "Process Associate",
     period: "June 2019 – April 2021",
     achievements: [
@@ -78,13 +78,13 @@ export const education = [
   {
     institution: "IEC College of Engineering and Technology",
     location: "Greater Noida, India",
-    degree: "B.Tech — Computer Science & Engineering",
+    degree: "B.Tech - Computer Science & Engineering",
     period: "Aug 2014 – Nov 2018",
     affiliation: "Affiliated to AKTU (Dr. A.P.J. Abdul Kalam Technical University)",
   },
   {
     institution: "St. Mary's Inter College",
-    location: "India",
+    location: "Etawah(U.P.) - India",
     degree: "High School Diploma",
     period: "",
     affiliation: "",
@@ -93,37 +93,35 @@ export const education = [
 
 export const skills = {
   backend: [
-    "PHP 8.x", "Laravel 12/13", "CodeIgniter", "Python",
-    "Flask", "Django", "FastAPI", "Node.js",
+    "PHP 8.x", "Laravel 8-13", "Python",
+    "Flask", "Django", "FastAPI", "Node.js"
   ],
   frontend: [
-    "React.js", "React Native", "JavaScript (ES6+)", "TypeScript",
-    "HTML5", "CSS3", "Tailwind CSS", "Bootstrap", "Livewire", "AJAX",
+    "React.js", "JavaScript (ES6+)", "HTML5", "CSS3",
+    "Tailwind CSS", "Bootstrap CSS", "Livewire"
   ],
   databases: [
-    "MySQL", "MongoDB", "Redis", "Elasticsearch", "SQLite", "PostgreSQL",
+    "MySQL", "MongoDB", "Redis", "Elasticsearch", "SQLite", "PostgreSQL"
   ],
   cloudAndDevOps: [
-    "AWS S3/EC2", "Oracle Cloud", "Render", "Vercel",
-    "Docker", "GitHub Actions", "Cron Jobs", "cURL",
+    "AWS S3/EC2", "Vercel", "Docker", "GitHub Actions"
   ],
   aiAndMl: [
     "YOLO (Ultralytics)", "Ollama", "PyTorch", "ONNX",
     "Scikit-learn", "Pandas", "NumPy", "RAG Pipelines",
   ],
   apiAndAuth: [
-    "RESTful APIs", "GraphQL", "OAuth 2.0", "JWT",
-    "Laravel Sanctum", "Laravel Passport", "Microservices",
+    "RESTful APIs", "OAuth 2.0", "JWT",
+    "Laravel Sanctum", "Laravel Passport"
   ],
   integrations: [
-    "IDMERIT KYC/AML", "Shopify", "Square", "QuickBooks", "Rutter",
+    "IDMERIT KYC/AML", "Square", "QuickBooks", "Rutter",
     "HubSpot", "Vtiger CRM", "Pipedream", "Dropbox", "Juice Financial",
     "Fundkite", "Sensible", "MoneyThumb", "Thomson Reuters Clear",
-    "Gmail API", "Google Maps API", "Prokerala API",
+    "Gmail API", "Google Maps API", "Prokerala API", "Ollama", "LLM Models"
   ],
   tools: [
-    "Git / GitHub", "GitBook", "Postman", "Figma",
-    "Power BI", "Vite", "Composer", "NPM", "Astro",
+    "Git / GitHub", "GitBook", "Postman"
   ],
 };
 
@@ -134,7 +132,7 @@ export const projects = [
     company: "Azine Web Technologies",
     tech: "React.js, Laravel, MySQL, Redis, Elasticsearch, Passport Auth",
     description: [
-      "Multi-tenant identity verification dashboard with RBAC — supporting Admin, Operator, and Client roles with granular permission controls.",
+      "Multi-tenant identity verification dashboard with supporting Admin, Operator, and Client roles with granular permission controls.",
       "Integrated live KYC/AML/Prefill API calls with real-time verification status tracking, result caching via Redis, and audit log storage in Elasticsearch.",
       "Subscription management module with tier-based API quota enforcement, automated billing alerts, and usage analytics charts.",
     ],
@@ -157,7 +155,7 @@ export const projects = [
     tech: "Laravel 13, PHP 8.3, Ollama (qwen2.5-coder:7b), SQLite, Tailwind CSS v4, Vite",
     github: "https://github.com/AdxStackDev/laravel_rag_doc_analyst",
     description: [
-      "100% local, privacy-first Retrieval-Augmented Generation (RAG) knowledge base — no cloud API dependency, all inference runs on-device via Ollama.",
+      "100% local, privacy-first Retrieval-Augmented Generation (RAG) knowledge base - no cloud API dependency, all inference runs on-device via Ollama.",
       "Supports ingestion and semantic search across PDF, Word (.docx), and Excel documents using smalot/pdfparser, phpoffice/phpword, and phpoffice/phpspreadsheet.",
       "Implements vector similarity search with SQLite backend and Google Custom Search API as a fallback for web-augmented queries.",
     ],
@@ -182,12 +180,12 @@ export const projects = [
     live: "https://php-nse-oi-data.vercel.app",
     description: [
       "Professional-grade NSE Futures & Options open interest analytics dashboard fetching live data from NSE via cURL with zero external dependencies.",
-      "Visualises OI buildup, PCR ratios, and top gainers/losers across contracts using pure PHP and SVG-based charts — no JS framework required.",
+      "Visualises OI buildup, PCR ratios, and top gainers/losers across contracts using pure PHP and SVG-based charts - no JS framework required.",
       "Deployed serverless on Vercel with PHP runtime; auto-refreshes market data on each request during trading hours.",
     ],
   },
   {
-    title: "Larav Eventos — Event Management",
+    title: "Larav Eventos - Event Management",
     duration: "2026",
     company: "Personal Project",
     tech: "Laravel 12, MongoDB, PHP, Laravel Sanctum, Tailwind CSS, Vite, PHPUnit",
@@ -205,12 +203,12 @@ export const projects = [
     tech: "PHP 7.4+, Google Gmail API v1, Google OAuth 2.0, Tailwind CSS, Vercel",
     live: "https://gmail-bulk-manger.vercel.app",
     description: [
-      "Web app for bulk Gmail operations — label management, mass delete, archiving, and unsubscribe automation — via the Gmail API v1.",
+      "Web app for bulk Gmail operations - label management, mass delete, archiving, and unsubscribe automation - via the Gmail API v1.",
       "Full OAuth 2.0 flow with token refresh; built entirely in PHP with Tailwind CSS UI; deployed on Vercel.",
     ],
   },
   {
-    title: "App Sanatan — React Native App",
+    title: "App Sanatan - React Native App",
     duration: "2026",
     company: "Personal Project",
     tech: "React Native, JavaScript, Axios, Prokerala API, React Navigation, Metro",
