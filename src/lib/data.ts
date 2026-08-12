@@ -1,22 +1,21 @@
 export const personalInfo = {
   name: "Aditya Kumar Dixit",
   title: "Full-Stack Developer",
-  subtitle: "PHP · Laravel · Python · React · React Native · AI/ML · Cloud",
-  location: "Ahmedabad, Gujarat, India",
+  subtitle: "PHP · Laravel · Python · ReactJS · NodeJS · AI/ML",
+  location: "Noida, India",
   email: "dixit99304@gmail.com",
   phone: "+91 9990662773",
   github: "https://github.com/AdxStackDev",
   linkedin: "https://www.linkedin.com/in/aditya-dixit-6b10a625b",
-  summary:
-    "Results-driven Full-Stack Developer with 6+ years of hands-on experience architecting and shipping scalable web and mobile applications across fintech, healthcare, and enterprise domains. Specialist in PHP/Laravel back-end systems, RESTful API design, and React/React Native front-end engineering. Deep expertise in third-party financial platform integrations (KYC/AML, payments, CRM), database performance optimisation with Redis and Elasticsearch, and cloud-native deployments on AWS, Oracle Cloud, and Vercel. Driven by a passion for AI/ML, with active personal projects exploring RAG pipelines, local LLMs via Ollama, YOLO-based computer vision, and real-time data dashboards.",
+  summary: "Results-driven Full-Stack Developer with 6+ years of hands-on experience architecting and shipping scalable web and mobile applications across fintech, healthcare, and enterprise domains. Specialist in PHP/Laravel back-end systems, RESTful API design, and React/React Native front-end engineering. Deep expertise in third-party financial platform integrations (KYC/AML, payments, CRM), database performance optimisation with Redis and Elasticsearch, and cloud-native deployments on AWS, Oracle Cloud, and Vercel. Driven by a passion for AI/ML, with active personal projects exploring RAG pipelines, local LLMs via Ollama, YOLO-based computer vision, and real-time data dashboards.",
 };
 
 export const workExperience = [
   {
     company: "Azine Web Technologies",
     location: "Ahmedabad, India",
-    position: "PHP Developer",
-    period: "June 2025 – Present",
+    position: "Full Stack / PHP Developer",
+    period: "June 2025 – August 2026",
     achievements: [
       "Architected a Laravel-based KYC/AML/Prefill integration suite (IDMERIT) handling identity verification, Aadhaar validation, and AML screening with Passport token auth and rate-limited API gateways.",
       "Designed MySQL and MongoDB database schemas with Redis caching layers and Elasticsearch full-text indexing, reducing average query response time by ~60%.",
@@ -55,7 +54,7 @@ export const workExperience = [
     company: "Capgemini India (HCSC Process)",
     location: "Noida NSEZ, India",
     position: "Process Associate",
-    period: "June 2019 – April 2021",
+    period: "September 2019 – April 2021",
     achievements: [
       "Managed large-scale health insurance data records for HCSC (Health Care Service Corporation) using MySQL and CodeIgniter; ensured HIPAA-compliant data handling with 99.9% accuracy.",
       "Created, reviewed, and maintained benefit documentation (ASO, HMO, PPO, Dental plan books) for enterprise policyholders, processing 500+ records monthly.",
@@ -93,7 +92,7 @@ export const education = [
 
 export const skills = {
   backend: [
-    "PHP 8.x", "Laravel 8-13", "Python",
+    "PHP", "Laravel 8-13", "Python",
     "Flask", "Django", "FastAPI", "Node.js"
   ],
   frontend: [
