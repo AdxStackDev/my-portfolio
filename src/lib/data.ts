@@ -42,7 +42,7 @@ export const workExperience = [
     company: "WebMintra Technologies Pvt. Ltd.",
     location: "Noida, India",
     position: "Full Stack / PHP Developer",
-    period: "April 2021 – Jan 2023",
+    period: "April 2022 – Jan 2023",
     achievements: [
       "Developed the Overseas Education Lane portal - a Laravel-based multi-role platform for international education agencies managing partner universities, course catalogues, student applications, and agent workflows.",
       "Implemented OAuth2 SSO flows and session management for seamless cross-role authentication (agents, universities, administrators, students).",
@@ -54,7 +54,7 @@ export const workExperience = [
     company: "Capgemini India (HCSC Process)",
     location: "Noida NSEZ, India",
     position: "Process Associate",
-    period: "September 2019 – April 2021",
+    period: "August 2019 – March 2022",
     achievements: [
       "Managed large-scale health insurance data records for HCSC (Health Care Service Corporation) using MySQL and CodeIgniter; ensured HIPAA-compliant data handling with 99.9% accuracy.",
       "Created, reviewed, and maintained benefit documentation (ASO, HMO, PPO, Dental plan books) for enterprise policyholders, processing 500+ records monthly.",
