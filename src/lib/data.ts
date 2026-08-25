@@ -233,7 +233,7 @@ export const certifications = [
   {
     name: "Python for Data Science",
     issuer: "IBM / Coursera",
-    date: "2024",
+    date: "2025",
     icon: "🐍",
   }
 ];
