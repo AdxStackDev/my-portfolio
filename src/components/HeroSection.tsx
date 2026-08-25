@@ -127,7 +127,7 @@ export default function HeroSection() {
             <div className="relative">
               <div className="absolute -inset-1 bg-gradient-to-r from-pink-500 to-purple-500 rounded-full blur opacity-30 transition duration-1000" />
               <img
-                src="/profile.jpg"
+                src="/aditya_dixit.png"
                 alt={personalInfo.name}
                 className="w-48 h-48 md:w-60 md:h-60 rounded-full relative ring-2 ring-purple-500/50 object-cover"
               />
