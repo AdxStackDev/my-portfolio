@@ -1,8 +1,8 @@
 export const personalInfo = {
   name: "Aditya Kumar Dixit",
-  title: "Full-Stack Developer",
-  subtitle: "PHP · Laravel · Python · ReactJS · NodeJS · AI/ML",
-  location: "Noida, India",
+  title: "Full Stack Developer",
+  subtitle: "PHP · Python · ReactJS · AWS · RAG ",
+  location: "Ahmedabad, India",
   email: "dixit99304@gmail.com",
   phone: "+91 9990662773",
   github: "https://github.com/AdxStackDev",
@@ -26,8 +26,8 @@ export const workExperience = [
   },
   {
     company: "JoomDev",
-    location: "Delhi(WFH), India",
-    position: "Full Stack / PHP Developer",
+    location: "Delhi(Remote), India",
+    position: "Backend Developer",
     period: "Feb 2023 – Feb 2025",
     achievements: [
       "Engineered RESTful API integrations for four fintech platforms - Fundkite, Juice Financial, Sensible, and MoneyThumb - enabling automated loan origination, document analysis, and financial data exchange workflows.",
@@ -41,7 +41,7 @@ export const workExperience = [
   {
     company: "WebMintra Technologies Pvt. Ltd.",
     location: "Noida, India",
-    position: "Full Stack / PHP Developer",
+    position: "Full Stack Developer",
     period: "April 2022 – Jan 2023",
     achievements: [
       "Developed the Overseas Education Lane portal - a Laravel-based multi-role platform for international education agencies managing partner universities, course catalogues, student applications, and agent workflows.",
@@ -53,7 +53,7 @@ export const workExperience = [
   {
     company: "Capgemini India (HCSC Process)",
     location: "Noida NSEZ, India",
-    position: "Process Associate",
+    position: "Process Associate - Application Support & Development",
     period: "August 2019 – March 2022",
     achievements: [
       "Managed large-scale health insurance data records for HCSC (Health Care Service Corporation) using MySQL and CodeIgniter; ensured HIPAA-compliant data handling with 99.9% accuracy.",
@@ -65,7 +65,7 @@ export const workExperience = [
     company: "FranConnect",
     location: "Noida, India",
     position: "Internship Trainee",
-    period: "June 2018 – December 2018",
+    period: "September 2018 – February 2019",
     achievements: [
       "Completed foundational professional training in web application development using PHP and MySQL.",
       "Contributed to internal tooling and supported senior developers in client-facing project delivery.",
@@ -78,36 +78,28 @@ export const education = [
     institution: "IEC College of Engineering and Technology",
     location: "Greater Noida, India",
     degree: "B.Tech - Computer Science & Engineering",
-    period: "Aug 2014 – Nov 2018",
+    period: "2014 – 2018",
     affiliation: "Affiliated to AKTU (Dr. A.P.J. Abdul Kalam Technical University)",
-  },
-  {
-    institution: "St. Mary's Inter College",
-    location: "Etawah(U.P.) - India",
-    degree: "High School Diploma",
-    period: "",
-    affiliation: "",
-  },
+  }
 ];
 
 export const skills = {
   backend: [
-    "PHP", "Laravel 8-13", "Python",
-    "Flask", "Django", "FastAPI", "Node.js"
+    "PHP", "Laravel v7 to v13", "Python",
+    "Flask", "Django"
   ],
   frontend: [
     "React.js", "JavaScript (ES6+)", "HTML5", "CSS3",
-    "Tailwind CSS", "Bootstrap CSS", "Livewire"
+    "Tailwind CSS", "Bootstrap CSS"
   ],
   databases: [
-    "MySQL", "MongoDB", "Redis", "Elasticsearch", "SQLite", "PostgreSQL"
+    "MySQL", "MongoDB", "Redis", "Clickhouse", "SQLite", "Supabase"
   ],
   cloudAndDevOps: [
-    "AWS S3/EC2", "Vercel", "Docker", "GitHub Actions"
+    "AWS S3/EC2/Lembda", "Vercel", "GitHub Actions"
   ],
   aiAndMl: [
-    "YOLO (Ultralytics)", "Ollama", "PyTorch", "ONNX",
-    "Scikit-learn", "Pandas", "NumPy", "RAG Pipelines",
+    "YOLO (Ultralytics)", "Ollama", "PyTorch", "ONNX", "RAG Pipelines"
   ],
   apiAndAuth: [
     "RESTful APIs", "OAuth 2.0", "JWT",
@@ -227,9 +219,9 @@ export const certifications = [
     icon: "☁️",
   },
   {
-    name: "Design Power BI Reports",
-    issuer: "Microsoft Learn",
-    date: "2025",
+    name: "Foundations of Prompt Engineering",
+    issuer: "Amazon Web Services",
+    date: "2026",
     icon: "📊",
   },
   {
@@ -243,11 +235,5 @@ export const certifications = [
     issuer: "IBM / Coursera",
     date: "2024",
     icon: "🐍",
-  },
-  {
-    name: "PHP Developer Certification",
-    issuer: "Sololearn",
-    date: "July 2022",
-    icon: "🐘",
-  },
+  }
 ];
