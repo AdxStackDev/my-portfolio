@@ -85,7 +85,7 @@ export const education = [
 
 export const skills = {
   backend: [
-    "PHP", "Laravel v7 to v13", "Python",
+    "PHP", "Laravel", "Python",
     "Flask", "Django"
   ],
   frontend: [
@@ -96,7 +96,7 @@ export const skills = {
     "MySQL", "MongoDB", "Redis", "Clickhouse", "SQLite", "Supabase"
   ],
   cloudAndDevOps: [
-    "AWS S3/EC2/Lembda", "Vercel", "GitHub Actions"
+    "AWS", "Vercel", "GitHub Actions"
   ],
   aiAndMl: [
     "YOLO (Ultralytics)", "Ollama", "PyTorch", "ONNX", "RAG Pipelines"
